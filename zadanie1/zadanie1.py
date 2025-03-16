@@ -23,9 +23,10 @@ class ModelAI:
             data = json.load(f)
             return ModelAI(data["nazwa_modelu"], data["wersja"])
 
+
 #
-#
-# obj = ModelAI.z_pliku("myjson.json")
-# print(obj)
-# print(ModelAI.liczba_modeli)
+# for _ in range(15):
+#     obj = ModelAI.z_pliku("myjson.json")
+#     print(obj)
+#     print(ModelAI.liczba_modeli)
 #
